@@ -1,0 +1,19 @@
+# NOTE: written but NOT tested in the build sandbox (Docker was unavailable there).
+# Scale workers with:  docker compose up --scale worker=8
+services:
+  site:
+    build: .
+    command: python mock_site.py 8099
+  coordinator:
+    build: .
+    command: python coordinator.py --db /data/crawl.db --seed http://site:8099/catalogue/page-1.html --port 8000
+    ports: ["8000:8000"]
+    volumes: ["crawl-data:/data"]
+    depends_on: [site]
+  worker:
+    build: .
+    command: python worker.py --db /data/crawl.db --lease 10
+    volumes: ["crawl-data:/data"]
+    depends_on: [coordinator]
+volumes:
+  crawl-data:

@@ -1,0 +1,422 @@
+{
+ "expected_pages": 1050,
+ "cpu_cores": 1,
+ "scaling": {
+  "1": [
+   {
+    "workers": 1,
+    "crawl_seconds": 79.7,
+    "pages_saved": 1050,
+    "pages_per_sec": 13.17,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 1050
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 1, \"lease_requeues\": 0}"
+    ]
+   },
+   {
+    "workers": 1,
+    "crawl_seconds": 79.63,
+    "pages_saved": 1050,
+    "pages_per_sec": 13.19,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 1050
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 1, \"lease_requeues\": 0}"
+    ]
+   }
+  ],
+  "2": [
+   {
+    "workers": 2,
+    "crawl_seconds": 41.47,
+    "pages_saved": 1050,
+    "pages_per_sec": 25.32,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 546,
+     "w2": 504
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 2, \"lease_requeues\": 0}"
+    ]
+   },
+   {
+    "workers": 2,
+    "crawl_seconds": 41.47,
+    "pages_saved": 1050,
+    "pages_per_sec": 25.32,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 516,
+     "w2": 534
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 2, \"lease_requeues\": 0}"
+    ]
+   }
+  ],
+  "4": [
+   {
+    "workers": 4,
+    "crawl_seconds": 22.37,
+    "pages_saved": 1050,
+    "pages_per_sec": 46.94,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 294,
+     "w2": 252,
+     "w3": 252,
+     "w4": 252
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 4, \"lease_requeues\": 0}"
+    ]
+   },
+   {
+    "workers": 4,
+    "crawl_seconds": 22.29,
+    "pages_saved": 1050,
+    "pages_per_sec": 47.11,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 254,
+     "w2": 256,
+     "w3": 289,
+     "w4": 251
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 4, \"lease_requeues\": 0}"
+    ]
+   }
+  ],
+  "8": [
+   {
+    "workers": 8,
+    "crawl_seconds": 12.68,
+    "pages_saved": 1050,
+    "pages_per_sec": 82.82,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 134,
+     "w2": 126,
+     "w3": 127,
+     "w4": 158,
+     "w5": 126,
+     "w6": 125,
+     "w7": 126,
+     "w8": 128
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 8, \"lease_requeues\": 0}"
+    ]
+   },
+   {
+    "workers": 8,
+    "crawl_seconds": 12.83,
+    "pages_saved": 1050,
+    "pages_per_sec": 81.86,
+    "task_status": {
+     "pending": 0,
+     "leased": 0,
+     "done": 1050,
+     "failed": 0,
+     "skipped": 1
+    },
+    "books_verified": 1000,
+    "books_wrong": 0,
+    "lease_requeues": 0,
+    "http_retries": 0,
+    "per_worker_pages": {
+     "w1": 127,
+     "w2": 126,
+     "w3": 126,
+     "w4": 126,
+     "w5": 126,
+     "w6": 127,
+     "w7": 166,
+     "w8": 126
+    },
+    "links_seen": 3099,
+    "links_new": 1050,
+    "blocked_by_robots": 1,
+    "killed_worker": null,
+    "server": {
+     "total_requests": 1050,
+     "unique_urls_ok": 1050,
+     "duplicate_ok_fetches": 0,
+     "status_counts": {
+      "200": 1050
+     },
+     "admin_hits": 0
+    },
+    "coordinator_log": [
+     "[coordinator] job job1 seeded with 1 URL(s)",
+     "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 8, \"lease_requeues\": 0}"
+    ]
+   }
+  ]
+ },
+ "started": "Sun Oct 25 12:45:37 2026",
+ "fault": {
+  "workers": 4,
+  "crawl_seconds": 27.97,
+  "pages_saved": 1050,
+  "pages_per_sec": 37.54,
+  "task_status": {
+   "pending": 0,
+   "leased": 0,
+   "done": 1050,
+   "failed": 0,
+   "skipped": 1
+  },
+  "books_verified": 1000,
+  "books_wrong": 0,
+  "lease_requeues": 1,
+  "http_retries": 0,
+  "per_worker_pages": {
+   "w1": 32,
+   "w2": 326,
+   "w3": 325,
+   "w4": 367
+  },
+  "links_seen": 3099,
+  "links_new": 1050,
+  "blocked_by_robots": 1,
+  "killed_worker": "w1",
+  "server": {
+   "total_requests": 1051,
+   "unique_urls_ok": 1050,
+   "duplicate_ok_fetches": 1,
+   "status_counts": {
+    "200": 1051
+   },
+   "admin_hits": 0
+  },
+  "coordinator_log": [
+   "[coordinator] job job1 seeded with 1 URL(s)",
+   "[coordinator] re-queued 1 task(s) with expired lease",
+   "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1050, \"failed\": 0, \"skipped\": 1}, \"pages_saved\": 1050, \"workers_alive\": 3, \"lease_requeues\": 1}"
+  ]
+ },
+ "flaky": {
+  "workers": 4,
+  "crawl_seconds": 24.29,
+  "pages_saved": 1049,
+  "pages_per_sec": 43.19,
+  "task_status": {
+   "pending": 0,
+   "leased": 0,
+   "done": 1049,
+   "failed": 1,
+   "skipped": 1
+  },
+  "books_verified": 999,
+  "books_wrong": 0,
+  "lease_requeues": 0,
+  "http_retries": 124,
+  "per_worker_pages": {
+   "w1": 255,
+   "w2": 283,
+   "w3": 253,
+   "w4": 258
+  },
+  "links_seen": 3097,
+  "links_new": 1050,
+  "blocked_by_robots": 1,
+  "killed_worker": null,
+  "server": {
+   "total_requests": 1173,
+   "unique_urls_ok": 1049,
+   "duplicate_ok_fetches": 0,
+   "status_counts": {
+    "200": 1049,
+    "503": 124
+   },
+   "admin_hits": 0
+  },
+  "coordinator_log": [
+   "[coordinator] job job1 seeded with 1 URL(s)",
+   "[coordinator] job complete: {\"tasks\": {\"pending\": 0, \"leased\": 0, \"done\": 1049, \"failed\": 1, \"skipped\": 1}, \"pages_saved\": 1049, \"workers_alive\": 4, \"lease_requeues\": 0}"
+  ]
+ },
+ "dedup": {
+  "urls_in_frontier": 1051,
+  "resubmitted": 1051,
+  "accepted_as_new": 0,
+  "fragment_variants_tried": 100,
+  "fragment_variants_accepted": 0
+ }
+}
